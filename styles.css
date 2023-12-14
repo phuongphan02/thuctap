@@ -1,0 +1,442 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ccc;
+    z-index: 1000;
+  }
+  
+  .dropdown-menu li {
+    list-style: none;
+    padding: 10px;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: #fffdf0;
+  }.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #f6f5ef;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ccc;
+    z-index: 1000;
+  }
+  
+  .dropdown-menu li {
+    list-style: none;
+    padding: 10px;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color:#f1efdc;
+  }.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ccc;
+    z-index: 1000;
+  }
+  
+  .dropdown-menu li {
+    list-style: none;
+    padding: 10px;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: #f3f1e5;
+  }
+.text5 {
+    font-family:'Cor-MediumItalic';
+    
+    font-size: 24px;
+    color: #fbf9f9;
+  }
+  
+element.style {
+    width: 304px;
+    height: 420px;
+}
+  h6 {
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 30px;
+    color: #f8f2f2;
+  }
+@font-face {
+    font-family: 'Cor-Medium';
+    src: url("fonts/CormorantGaramond-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'Cor-MediumItalic';
+    src: url("fonts/CormorantGaramond-MediumItalic.ttf");
+}
+
+@font-face {
+    font-family: 'lg-eot';
+    src: url("fonts/lg.eot");
+}
+
+@font-face {
+    font-family: 'lg-ttf';
+    src: url("fonts/lg.ttf");
+}
+
+@font-face {
+    font-family: 'lg-woff';
+    src: url("fonts/lg.woff");
+}
+
+@font-face {
+    font-family: 'Quicksand-Bold';
+    src: url("fonts/Quicksand-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Quicksand-Medium';
+    src: url("fonts/Quicksand-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'Quicksand-Regular';
+    src: url("fonts/Quicksand-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Quicksand-SemiBold';
+    src: url("fonts/Quicksand-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto-ExtraBold';
+    src: url("fonts/RobotoSlab-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: 'vjs-eot';
+    src: url("fonts/vjs.eot");
+}
+
+@font-face {
+    font-family: 'vjs-ttf';
+    src: url("fonts/vjs.ttf");
+}
+
+@font-face {
+    font-family: 'vjs-woff';
+    src: url("fonts/vjs.woff");
+}
+
+.text1 {
+    font-family: 'Cor-MediumItalic';
+}
+
+.text2 {
+    font-family: 'Quicksand-Medium';
+}
+
+.text3 {
+    font-family: 'Cor-MediumItalic';
+    position: relative;
+}
+
+.text3 img {
+    position: absolute;
+    width: 100px;
+    top: 50%;
+    left: 50%;
+    margin-top: 20px;
+    transform: translate(-50%, -50%);
+    opacity: 0.5;
+
+}
+
+.text4 {
+    font-family: 'Quicksand-Regular';
+}
+
+.background-body {
+    background-image: url("images/background/1.png");
+    background-color: rgb(249, 247, 241);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-attachment: fixed;
+}
+
+.header-main {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.header-wrapper {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    /* Giảm khoảng cách dưới logo */
+}
+
+.main-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav .nav-link {
+    color: white;
+}
+
+.nav-item {
+    margin-right: 15px;
+}
+
+.language-icon img {
+    width: 25px;
+    /* Giảm kích thước biểu tượng ngôn ngữ */
+    height: auto;
+
+}
+
+.carousel-caption {
+    position: absolute;
+    height: 56%;
+
+}
+
+.carousel-indicators {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    margin-right: 50px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    margin-bottom: 10px;
+}
+
+.carousel-indicators .active {
+    background-color: rgb(244, 243, 238);
+}
+
+.d-flex-column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    /* Khoảng cách giữa các phần tử */
+}
+
+.col-divider {
+    border-right: 1px solid #ccc;
+    /* Màu và độ dày đường gạch dọc */
+    padding-right: 20px;
+    /* Khoảng cách giữa đường gạch và nội dung */
+}
+
+/* Định dạng cho cột cuối cùng */
+.col:last-child {
+    border-right: none;
+    /* Loại bỏ đường gạch dọc cho cột cuối cùng */
+}
+
+.bgColor1 {
+    background-color: #f3f1e5;
+    text-align: center;
+}
+
+span.strikethrough {
+    text-decoration: line-through;
+    color: #757070;
+    border-radius: 3px;
+    padding: 2px 4px;
+    width: 100px;
+    height: 20px;
+}
+
+.card p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.card img {
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    margin: auto;
+
+    object-fit: contain;
+}
+
+.card {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container_products {
+    background-color: #f3f1e5;
+}
+.container_products1 {
+    background-color: #f3f1e5;
+}
+.img-card {
+
+    background-color: #f3f1e5;
+}
+
+.text-layer {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 24px;
+    color: white;
+}
+
+.promotion-img img{
+    border-top-right-radius:45%;
+    border-top-left-radius: 45%;
+}
+#carouselExampleIndicators1 .carousel-indicators {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    margin-right: 50px;
+}
+
+#carouselExampleIndicators1 .carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border: 1px solid rgb(62, 60, 60);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#carouselExampleIndicators1 .carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: yellow;
+    margin-bottom: 10px;
+}
+
+#carouselExampleIndicators1 .carousel-indicators .active {
+    background-color:rgb(209, 209, 59);
+}
+
+
+.space {
+    background-image: url('images/background/1.png');
+    /* Đường dẫn đến hình ảnh bạn muốn sử dụng */
+    background-size: cover;
+    /* Chọn kiểu hiển thị ảnh, có thể là 'cover', 'contain', hoặc các giá trị khác tùy thuộc vào yêu cầu của bạn */
+    background-position: center;
+    /* Điều chỉnh vị trí hiển thị ảnh, có thể là 'center', 'top', 'bottom', 'left', 'right', hoặc giá trị khác */
+    height: 100px;
+    /* Đặt chiều cao của phần space, giống với chiều cao đã đặt inline trong HTML */
+    background-color:#f3f1e5;
+}
+.promotions {
+    background-color: #f3f1e5;
+}
+
+.container-time {
+    text-align: center;
+}
+
+.container-time .col-divider {
+
+    border-right: 2px solid #f3f1e5;
+    /* Màu và độ dày đường gạch dọc */
+    padding-right: 10px;
+
+    /* Khoảng cách giữa đường gạch và nội dung */
+    width: 20%;
+}
+
+.container-time .d-flex-column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px 0 10px;
+
+}
+
+.container-time .col-divider:last-child {
+    border-right: none;
+}
+
+.container-time p {
+    font-family: 'Roboto-ExtraBold';
+    font-size: 20px;
+}
+
+.khung-tren {
+    position: absolute;
+    width: 100%;
+    height: 305px;
+    left: 65px;
+    top: -20px;
+}
+
+.khung-duoi {
+    position: absolute;
+    width: 92%;
+    height: 295px;
+    left: 115px;
+    bottom: -60px;
+}
+
+.img-pr {
+    margin: -35px 0 1rem;
+}
