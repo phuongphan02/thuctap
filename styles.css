@@ -354,12 +354,12 @@ span.strikethrough {
     width: 12px;
     height: 12px;
     border-radius: 100%;
-    background-color: yellow;
+    background-color: rgb(255, 255, 50);
     margin-bottom: 10px;
 }
 
 #carouselExampleIndicators1 .carousel-indicators .active {
-    background-color: rgb(209, 209, 59);
+    background-color: rgb(255, 238, 4);
 }
 
 .space {
